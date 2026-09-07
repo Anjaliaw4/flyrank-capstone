@@ -21,3 +21,10 @@
 - Do not modify unrelated files.
 - Prefer simple and maintainable solutions.
 - Ask before making major architectural changes.
+
+## Workflow
+
+- Review the existing code before making changes.
+- Keep changes focused on the requested task.
+- Test changes when possible.
+- Explain any important implementation decisions.
