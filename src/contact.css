@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;1,500&display=swap");
+:root { color: #20221e; background: #f1eee8; font-family: "Manrope", sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; }
+button, input, textarea { font: inherit; }
+main { max-width: 1100px; margin: auto; padding: 8vw 6vw; }
+header { max-width: 640px; padding-bottom: 12vw; }
+.eyebrow { font-size: .8rem; letter-spacing: .08em; text-transform: uppercase; }
+h1, h2 { font-size: clamp(2.8rem, 8vw, 6rem); line-height: .95; margin: 1rem 0; }
+h2 { font-size: clamp(2rem, 5vw, 4rem); }
+em { font-family: "Playfair Display", serif; font-weight: 500; }
+.contact-section { display: grid; grid-template-columns: 1fr 1fr; gap: 8vw; border-top: 1px solid #20221e; padding-top: 4vw; }
+form { display: grid; gap: 1.25rem; }
+label { display: grid; gap: .5rem; }
+input, textarea { width: 100%; border: 1px solid #20221e; background: transparent; padding: .8rem; }
+input:focus, textarea:focus, button:focus { outline: 3px solid #d88365; outline-offset: 2px; }
+[aria-invalid="true"] { border-color: #a13d2f; }
+.field-error { color: #a13d2f; font-size: .85rem; }
+button { width: fit-content; padding: .8rem 1rem; border: 1px solid #20221e; background: #20221e; color: #f1eee8; cursor: pointer; }
+@media (max-width: 700px) { .contact-section { grid-template-columns: 1fr; gap: 2rem; } }
